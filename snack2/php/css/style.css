@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(255, 68, 0);
+div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-green {
+    color: green;
 }

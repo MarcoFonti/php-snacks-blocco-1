@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SNACK 2</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <!--  BOOTSTRAP -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/css/bootstrap.min.css'
+        integrity='sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=='
+        crossorigin='anonymous' />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <a href="php/script.php">VAI</a>
+<div class="container">
+    <div class="card">
+        <h2>INSERISCI I CAMPI RICHIESTI</h2>
+        <form action="php/script.php" method="get">
+            <input type="text" name="name" id="name" placeholder="Inserisci nome">
+            <input type="number" name="age" id="age" placeholder="Inserisci età">
+            <input type="email" name="email" id="email" placeholder="Inserisvi email">
+            <button type="submit">Invia</button>
+        </form>
+    </div>
+</div>
 </body>
 </html>
