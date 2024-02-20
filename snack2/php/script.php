@@ -19,7 +19,7 @@ if (strlen($name) <= 3  || (!str_contains($email, '@')) || (!str_contains($email
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SNACK 2</title>
+    <title>SNACK2</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
