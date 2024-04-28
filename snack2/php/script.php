@@ -8,7 +8,7 @@ $age = $_GET['age'] ?? '';
 
 
 /* CONDIZIONE DI VALIDAZIONE DI ACCESSO */
-if (strlen($name) <= 3  || (!str_contains($email, '@')) || (!str_contains($email, '.')) || (!is_numeric($age))) {
+if (strlen($name) <= 3  || (!str_contains($email, '@')) || (!str_contains($email, '.')) || (!is_numeric($age)) || ($age < 18) ) {
     $color = 'text-red';
     $message = "Accesso negato!";
 } else {
